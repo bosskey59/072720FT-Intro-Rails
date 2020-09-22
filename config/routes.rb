@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :courses
   get '/students/custom', to:'students#custom'
   resources :students
   
